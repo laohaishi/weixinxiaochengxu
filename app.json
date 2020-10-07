@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小ss",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor":"#d4237a",
+    "color": "#666",
+    "backgroundColor":"#00ff00",
+    "borderStyle":"white",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/home.png"
+    },
+    {
+      "pagePath": "pages/index1/index1",
+      "text": "视频",
+      "iconPath": "icon/_videocamera.png",
+      "selectedIconPath": "icon/videocamera.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "图片",
+      "iconPath": "icon/_img.png",
+      "selectedIconPath": "icon/img.png"
+    },
+    {
+      "pagePath": "pages/index1/index1",
+      "text": "搜索",
+      "iconPath": "icon/_search.png",
+      "selectedIconPath": "icon/search.png"
+    },
+    {
+      "pagePath": "pages/index1/index1",
+      "text": "我的",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "icon/my.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
